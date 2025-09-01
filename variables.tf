@@ -20,3 +20,10 @@ varible "ingress_ports" {
       }
   ]
 }
+
+tags = merge(
+var.common_tags,
+{
+ name = "allow-all"
+}
+)
