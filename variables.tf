@@ -27,3 +27,10 @@ var.common_tags,
  name = "allow-all"
 }
 )
+
+varible "common_tags"{
+  default = {
+    Project = "roboshop"
+    Terrafrom = "true"
+  }
+}
