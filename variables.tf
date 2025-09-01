@@ -9,6 +9,14 @@ varible "ingress_ports" {
       {
       from_port = 22
       to_port  =  23
+      },
+      {
+      from_port = 80
+      to_port  =  81
+      },
+      {
+      from_port = 808
+      to_port  =  19
       }
   ]
 }
