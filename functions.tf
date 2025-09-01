@@ -1,3 +1,6 @@
+
+https://developer.hashicorp.com/terraform/language/functions
+
 #Terrafrom allows only in build functions not user defined some are 
 
 terraform console
